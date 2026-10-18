@@ -25,20 +25,4 @@ jupyter notebook
 
 Open a notebook in the `notebooks/` folder and use **Run All**. Each notebook includes the equations, Python code and plots for its question.
 
-To regenerate the six report figures, run:
 
-```bash
-python generate_figures.py
-```
-
-The script saves the plots in the `figures/` folder.
-
-## Problem considered
-
-The main problem is to minimize $x^2$ subject to $x \geq 1$, with Lagrangian
-
-$$
-L(\mu,x)=x^2+\mu(1-x), \qquad \mu \geq 0.
-$$
-
-The notebooks check the solutions using mathematical derivations and plotted results.
